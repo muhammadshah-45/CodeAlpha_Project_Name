@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    padding: 34px;
+    background: linear-gradient(4deg,#f16866,pink);
+    width: 100%;
+    height: 100vh;
+    /* min-height: 450px; */
+
+}
+.calculator{
+    width: 50%;
+    /* min-width: 340px; */
+    margin: 45px;
+    text-transform: capitalize;
+    /* font-weight: 800; */
+}
+.calculator h1{
+    font-size: 60px;
+    width: 100%;
+
+}
+.calculator span{
+    color: rgb(0, 173, 165);
+}
+.input-bo{
+    width: 100%;
+   margin: 30px 0px;
+   background: #074173;
+   /* opacity: 1; */
+   padding: 35px 52px;
+   display: flex;
+   border-radius: 10px;
+   align-items: center;
+}
+.input-bo input{
+    width: 100%;
+    flex: 3;
+    margin-right:20px;
+    padding: 14px 4px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    color: #333;
+    /* font-weight: 500; */
+    font-size: 18px;
+    position: relative;
+
+}
+.input-bo button{
+    /* flex: 1; */
+    padding: 14px 24px;
+    background: #ffff76;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.input-bo input::-webkit-calendar-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% );
+    background-size: 30px;
+    cursor: pointer;
+}
+
+
+/* Media Query */
+
+@media only screen and (max-width:1200px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .calculator h1{
+        
+        font-size: 80px;
+    }
+    .input-bo button:hover{
+        background: #f1f171;
+    
+        }
+}
+
+@media only screen and (max-width:1024px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .calculator h1{
+        font-size: 50px;
+    }
+    .input-bo{
+        padding: 20px;
+    }
+    .input-bo button:hover{
+        background: #f1f171;
+    
+        }
+}
+@media only screen and (max-width:768px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .calculator h1{
+        font-size: 45px;
+        margin:10px 0px;
+    }
+    .input-bo{
+        width: 100%;
+        padding: 20px 20px;
+    }
+    .input-bo input{
+        padding: 9px;
+    }
+    .input-bo button{
+        padding: 10px;
+    }
+    .input-bo button:hover{
+        background: #f1f171;
+    
+        }
+}
+
+@media only screen and (max-width:425px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .calculator{
+        width: 100%;
+    }
+    .calculator h1{
+        font-size: 30px;
+    }
+    .input-bo{
+        padding: 10px 20px;
+    }
+    .input-bo input{
+        padding: 13px 25px;
+    }
+    .input-bo button{
+        padding: 15px;
+    }
+    .input-bo button:hover{
+    background: #f1f171;
+
+    }
+    
+}

@@ -1,2 +1,2 @@
-# CodeAlpha_Project_Name
-CodeAlpha is a leading software development company dedicated to fostering talent and innovation in various domains. With a strong commitment to excellence, we offer internship opportunities that provide hands-on experience in cutting-edge technologies and a dynamic work environment.
+# Age-Calculator-responsive-web-App
+I create a  web-based Age Calculator using javaScript to calculate user's ages based on their submitted date of birth, month, and year. JavaScript's built-in date and time functions simplify the age calculation process, making it easy to determine someone's age.
